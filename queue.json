@@ -1,0 +1,457 @@
+[
+  {
+    "stato": "Johor",
+    "settore": "Cleaning",
+    "done": false
+  },
+  {
+    "stato": "Johor",
+    "settore": "Utensileria",
+    "done": false
+  },
+  {
+    "stato": "Johor",
+    "settore": "Depolverazione",
+    "done": false
+  },
+  {
+    "stato": "Johor",
+    "settore": "ATEX",
+    "done": false
+  },
+  {
+    "stato": "Johor",
+    "settore": "Sabbiatura",
+    "done": false
+  },
+  {
+    "stato": "Johor",
+    "settore": "Welding",
+    "done": false
+  },
+  {
+    "stato": "Johor",
+    "settore": "Meccanica",
+    "done": false
+  },
+  {
+    "stato": "Kedah",
+    "settore": "Cleaning",
+    "done": false
+  },
+  {
+    "stato": "Kedah",
+    "settore": "Utensileria",
+    "done": false
+  },
+  {
+    "stato": "Kedah",
+    "settore": "Depolverazione",
+    "done": false
+  },
+  {
+    "stato": "Kedah",
+    "settore": "ATEX",
+    "done": false
+  },
+  {
+    "stato": "Kedah",
+    "settore": "Sabbiatura",
+    "done": false
+  },
+  {
+    "stato": "Kedah",
+    "settore": "Welding",
+    "done": false
+  },
+  {
+    "stato": "Kedah",
+    "settore": "Meccanica",
+    "done": false
+  },
+  {
+    "stato": "Kelantan",
+    "settore": "Cleaning",
+    "done": false
+  },
+  {
+    "stato": "Kelantan",
+    "settore": "Utensileria",
+    "done": false
+  },
+  {
+    "stato": "Kelantan",
+    "settore": "Depolverazione",
+    "done": false
+  },
+  {
+    "stato": "Kelantan",
+    "settore": "ATEX",
+    "done": false
+  },
+  {
+    "stato": "Kelantan",
+    "settore": "Sabbiatura",
+    "done": false
+  },
+  {
+    "stato": "Kelantan",
+    "settore": "Welding",
+    "done": false
+  },
+  {
+    "stato": "Kelantan",
+    "settore": "Meccanica",
+    "done": false
+  },
+  {
+    "stato": "Melaka",
+    "settore": "Cleaning",
+    "done": false
+  },
+  {
+    "stato": "Melaka",
+    "settore": "Utensileria",
+    "done": false
+  },
+  {
+    "stato": "Melaka",
+    "settore": "Depolverazione",
+    "done": false
+  },
+  {
+    "stato": "Melaka",
+    "settore": "ATEX",
+    "done": false
+  },
+  {
+    "stato": "Melaka",
+    "settore": "Sabbiatura",
+    "done": false
+  },
+  {
+    "stato": "Melaka",
+    "settore": "Welding",
+    "done": false
+  },
+  {
+    "stato": "Melaka",
+    "settore": "Meccanica",
+    "done": false
+  },
+  {
+    "stato": "Negeri Sembilan",
+    "settore": "Cleaning",
+    "done": false
+  },
+  {
+    "stato": "Negeri Sembilan",
+    "settore": "Utensileria",
+    "done": false
+  },
+  {
+    "stato": "Negeri Sembilan",
+    "settore": "Depolverazione",
+    "done": false
+  },
+  {
+    "stato": "Negeri Sembilan",
+    "settore": "ATEX",
+    "done": false
+  },
+  {
+    "stato": "Negeri Sembilan",
+    "settore": "Sabbiatura",
+    "done": false
+  },
+  {
+    "stato": "Negeri Sembilan",
+    "settore": "Welding",
+    "done": false
+  },
+  {
+    "stato": "Negeri Sembilan",
+    "settore": "Meccanica",
+    "done": false
+  },
+  {
+    "stato": "Pahang",
+    "settore": "Cleaning",
+    "done": false
+  },
+  {
+    "stato": "Pahang",
+    "settore": "Utensileria",
+    "done": false
+  },
+  {
+    "stato": "Pahang",
+    "settore": "Depolverazione",
+    "done": false
+  },
+  {
+    "stato": "Pahang",
+    "settore": "ATEX",
+    "done": false
+  },
+  {
+    "stato": "Pahang",
+    "settore": "Sabbiatura",
+    "done": false
+  },
+  {
+    "stato": "Pahang",
+    "settore": "Welding",
+    "done": false
+  },
+  {
+    "stato": "Pahang",
+    "settore": "Meccanica",
+    "done": false
+  },
+  {
+    "stato": "Perak",
+    "settore": "Cleaning",
+    "done": false
+  },
+  {
+    "stato": "Perak",
+    "settore": "Utensileria",
+    "done": false
+  },
+  {
+    "stato": "Perak",
+    "settore": "Depolverazione",
+    "done": false
+  },
+  {
+    "stato": "Perak",
+    "settore": "ATEX",
+    "done": false
+  },
+  {
+    "stato": "Perak",
+    "settore": "Sabbiatura",
+    "done": false
+  },
+  {
+    "stato": "Perak",
+    "settore": "Welding",
+    "done": false
+  },
+  {
+    "stato": "Perak",
+    "settore": "Meccanica",
+    "done": false
+  },
+  {
+    "stato": "Perlis",
+    "settore": "Cleaning",
+    "done": false
+  },
+  {
+    "stato": "Perlis",
+    "settore": "Utensileria",
+    "done": false
+  },
+  {
+    "stato": "Perlis",
+    "settore": "Depolverazione",
+    "done": false
+  },
+  {
+    "stato": "Perlis",
+    "settore": "ATEX",
+    "done": false
+  },
+  {
+    "stato": "Perlis",
+    "settore": "Sabbiatura",
+    "done": false
+  },
+  {
+    "stato": "Perlis",
+    "settore": "Welding",
+    "done": false
+  },
+  {
+    "stato": "Perlis",
+    "settore": "Meccanica",
+    "done": false
+  },
+  {
+    "stato": "Pulau Pinang",
+    "settore": "Cleaning",
+    "done": false
+  },
+  {
+    "stato": "Pulau Pinang",
+    "settore": "Utensileria",
+    "done": false
+  },
+  {
+    "stato": "Pulau Pinang",
+    "settore": "Depolverazione",
+    "done": false
+  },
+  {
+    "stato": "Pulau Pinang",
+    "settore": "ATEX",
+    "done": false
+  },
+  {
+    "stato": "Pulau Pinang",
+    "settore": "Sabbiatura",
+    "done": false
+  },
+  {
+    "stato": "Pulau Pinang",
+    "settore": "Welding",
+    "done": false
+  },
+  {
+    "stato": "Pulau Pinang",
+    "settore": "Meccanica",
+    "done": false
+  },
+  {
+    "stato": "Sabah",
+    "settore": "Cleaning",
+    "done": false
+  },
+  {
+    "stato": "Sabah",
+    "settore": "Utensileria",
+    "done": false
+  },
+  {
+    "stato": "Sabah",
+    "settore": "Depolverazione",
+    "done": false
+  },
+  {
+    "stato": "Sabah",
+    "settore": "ATEX",
+    "done": false
+  },
+  {
+    "stato": "Sabah",
+    "settore": "Sabbiatura",
+    "done": false
+  },
+  {
+    "stato": "Sabah",
+    "settore": "Welding",
+    "done": false
+  },
+  {
+    "stato": "Sabah",
+    "settore": "Meccanica",
+    "done": false
+  },
+  {
+    "stato": "Sarawak",
+    "settore": "Cleaning",
+    "done": false
+  },
+  {
+    "stato": "Sarawak",
+    "settore": "Utensileria",
+    "done": false
+  },
+  {
+    "stato": "Sarawak",
+    "settore": "Depolverazione",
+    "done": false
+  },
+  {
+    "stato": "Sarawak",
+    "settore": "ATEX",
+    "done": false
+  },
+  {
+    "stato": "Sarawak",
+    "settore": "Sabbiatura",
+    "done": false
+  },
+  {
+    "stato": "Sarawak",
+    "settore": "Welding",
+    "done": false
+  },
+  {
+    "stato": "Sarawak",
+    "settore": "Meccanica",
+    "done": false
+  },
+  {
+    "stato": "Selangor",
+    "settore": "Cleaning",
+    "done": false
+  },
+  {
+    "stato": "Selangor",
+    "settore": "Utensileria",
+    "done": false
+  },
+  {
+    "stato": "Selangor",
+    "settore": "Depolverazione",
+    "done": false
+  },
+  {
+    "stato": "Selangor",
+    "settore": "ATEX",
+    "done": false
+  },
+  {
+    "stato": "Selangor",
+    "settore": "Sabbiatura",
+    "done": false
+  },
+  {
+    "stato": "Selangor",
+    "settore": "Welding",
+    "done": false
+  },
+  {
+    "stato": "Selangor",
+    "settore": "Meccanica",
+    "done": false
+  },
+  {
+    "stato": "Terengganu",
+    "settore": "Cleaning",
+    "done": false
+  },
+  {
+    "stato": "Terengganu",
+    "settore": "Utensileria",
+    "done": false
+  },
+  {
+    "stato": "Terengganu",
+    "settore": "Depolverazione",
+    "done": false
+  },
+  {
+    "stato": "Terengganu",
+    "settore": "ATEX",
+    "done": false
+  },
+  {
+    "stato": "Terengganu",
+    "settore": "Sabbiatura",
+    "done": false
+  },
+  {
+    "stato": "Terengganu",
+    "settore": "Welding",
+    "done": false
+  },
+  {
+    "stato": "Terengganu",
+    "settore": "Meccanica",
+    "done": false
+  }
+]
