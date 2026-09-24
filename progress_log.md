@@ -7,3 +7,4 @@ Ogni esecuzione oraria della routine processa una sola voce della coda e aggiung
 
 | Data/ora (UTC) | Stato | Settore | Aziende trovate | Aziende verificate | Note |
 |---|---|---|---|---|---|
+| 2026-09-24 15:10 UTC | Johor | Cleaning | 6 (candidate via WebSearch) | 0 | ESECUZIONE BLOCCATA: la policy di rete dell'ambiente cloud impedisce l'accesso in uscita (WebFetch) a qualsiasi dominio esterno (bloccato anche google.com), quindi non è stato possibile eseguire la fase di verifica (fase 3) sui siti candidati. Nessun file Excel prodotto, voce NON segnata come completata, progress.json non avanzato. Candidati trovati via ricerca web (non verificati, da NON considerare attendibili): wlt-my.com, gcsequipment.com.my, ascleaningequipment.com, alliancesuppliesonline.com.my, ftcleaning.com.my, grexsupply.com. |
