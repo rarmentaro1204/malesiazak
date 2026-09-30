@@ -27,7 +27,7 @@ foglio Excel.
 - `progress_log.md` — log testuale di ogni esecuzione (data/ora, voce processata, esito).
 - `output/` — file Excel `.xlsx` prodotti, uno per ogni combinazione stato/settore
   effettivamente processata, con nome
-  `Distributori_Dupuy_Malesia_<Stato>_<Settore>_<YYYY-MM-DD>.xlsx`.
+  `<YYYY-MM-DD>_<HH>_Malesia_<Stato>_<Settore>.xlsx` (colonne: ragione_sociale, sito_web, provincia_area, settore, telefono, email, note, stato_verifica).
 
 ## ⚠️ Avvertenza importante: dati grezzi, da verificare umanamente
 
@@ -58,3 +58,5 @@ Ad ogni esecuzione (circa una volta all'ora):
 6. aggiorna `progress.json` passando alla voce successiva (tornando a 0 dopo la 91esima,
    segnando un giro completo);
 7. effettua commit e push delle modifiche.
+
+- `.claude/agents/` — sub-agenti `ricerca-distributori` (raccolta via WebSearch) e `verifica-distributori` (verifica via ricerche indipendenti, WebFetch opzionale).
