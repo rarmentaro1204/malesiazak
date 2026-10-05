@@ -89,11 +89,59 @@ R = [
 (ND,"Guhring Malaysia Sdn Bhd","Presenza a Penang non confermata","https://malaysia.ahk.de/en/members/members-directory/guhring-malaysia-sdn-bhd",None,["Utensileria"],P,"Filiale di produttore."),
 (ND,"Lapasar (marketplace B2B MRO)","Consegna nazionale","https://lapasar.com",None,["Cleaning","Utensileria","Meccanica","Welding"],M,"Aggregatore con 10.000+ fornitori, non distributore diretto. Compare nei risultati di quasi tutti gli stati."),
 ]
+
+# --- Nuovi candidati dal 2° giro di ricerca (2026-10-05)
+R += [
+("Kelantan","Hassan Abdullah Hardware Sdn. Bhd.","Ketereh (Kota Bharu)",None,None,["Utensileria","Meccanica"],D,"Ferramenta generale, fondata 1983. Non chiaro se venda a clienti B2B industriali. 2° giro."),
+("Selangor","Master Jaya Environment Sdn Bhd","Taming Jaya Industrial Park, Seri Kembangan",None,"+60389626233",["Depolverazione"],P,"Controllo inquinamento aria, ventilazione, fume cleaning: contractor/produttore, priorita bassa. 2° giro."),
+("Selangor","Luchtech Engineering Sdn Bhd","Jalan Utama 2/18, Puchong",None,None,["Meccanica"],D,"Aria compressa (compressori, essiccatori, filtri): settore marginale, solo come partner adiacente. 2° giro."),
+("Perak","Floormac (M) Sdn Bhd","Ipoh (citta dedotta, non confermata)",None,None,["Cleaning"],K,"Distributore autorizzato Nilfisk, RCM, FASA, 3M: conflitto di marchio probabile nel Cleaning. 2° giro."),
+("Kedah","CR Hardware Sdn Bhd","250-C Jalan Tunku Putra, Kulim","https://mall.lapasar.com/supplier-profile/cr-hardware",None,["Utensileria"],C,"Utensili manuali ed elettrici, fornitore B2B (profilo marketplace). 2° giro."),
+]
+
+# --- Esiti di verifica: nome -> (esito, sito, telefono, email, nuova_valutazione, nota aggiuntiva)
+V = {
+"GL Bosun Diamond Tools (M) Sdn Bhd":("Confermato","http://www.glbosun.com.my/",None,None,None,"Lot 1745 Jalan Naib Kadir, Bukit Pasir, Muar. Sito citato nei risultati, non aperto. Nome Bosun = marchio cinese: possibile conflitto su utensili diamantati/elettrici."),
+"Sumitec Sdn Bhd":("Confermato","http://www.sumitec.my",None,None,None,"No.35 Jalan Tiong Emas, Tiong Nam, Johor Bahru. Distributore di utensili di precisione/misura da principals. Sito citato, non aperto."),
+"Corroblast":("Parziale",None,None,None,None,"Sede discordante (Singapore o Johor Bahru); un'unica fonte; sito non trovato."),
+"Multitech Industry Supplies":("Parziale",None,None,None,D,"30 Jalan IMJ 1, Taman Industri Malim Jaya, Melaka. Distributore esclusivo PRECISE e VIEW MASTER: strumenti di misura, non utensileria in senso stretto."),
+"Tiam Heng Machinery Sdn Bhd":("Confermato",None,None,None,None,"146-B/C Jalan Kesidang 1/10, Bachang, Melaka. SSM 200501015289. Rivenditore generalista. Sito non trovato."),
+"KS Tools Depot (Malaysia)":("Confermato",None,None,None,None,"SSM 201303295436. Sito proprio non trovato. Il nome richiama il marchio tedesco KS Tools: verificare conflitto."),
+"Wah Seng Sin Kee Co Sdn Bhd (WSSK)":("Parziale",None,None,None,None,"TBK 365 Jalan Menglembu, Ipoh. Sito NON verificato (wssk.com.my era solo un'ipotesi dell'agente: non usare). Jobstore lo classifica come manifattura, ruolo da chiarire."),
+"H.E. Trading (S.P) Sdn. Bhd.":("Parziale",None,None,None,None,"Vende/ripara/noleggia macchinari (pompe, compressori, soffiatori, lavapavimenti, aspirapolvere). Coerente con Cleaning, meno con Utensileria e Welding."),
+"Alloytool (M) Sdn Bhd":("Parziale",None,None,None,None,"24-26 Lorong Nagasari 9, Taman Nagasari, Perai. Utensili da taglio. Dominio alloytool.com.my solo da riassunto di ricerca, da confermare. Marchi non verificati."),
+"Berjaya Hardware (B'Worth) Sdn Bhd":("Parziale",None,None,None,None,"Jalan Heng Choon Thian, Butterworth. Pagina Invest Penang non leggibile. Welding non confermato."),
+"Dynarco Sdn Bhd":("Confermato (riserva sul settore)","http://dynarco.com/",None,None,None,"9 Jalan Todak 5, Seberang Jaya, Perai (+ Puchong). Piu macchine utensili (rettificatrici, EDM, CNC) che utensileria di consumo. Sito da riassunto di ricerca, non aperto."),
+"EDM-Tools (Penang) Sdn Bhd":("Parziale","www.edmtools.com.my","+603-8062 5918 / +603-8060 3117 (numeri della sede Selangor)","info@edmtools.com.my",P,"Sede a Prai (26 Lorong Nagasari 3). Produttore fili EDM in ottone e distributore esclusivo Erowa, Elbo Controlli, Thome, Toltec, Hwacheon; controllata di societa quotata."),
+"Min Hardware & Industrial Gases Sdn. Bhd.":("Parziale",None,None,None,None,"Dal 1984, Mak Mandin, Butterworth. Gas industriali + attrezzature e consumabili di saldatura. Pagina fonte non leggibile."),
+"EC Pneumatic & Hardware Sdn Bhd":("Confermato (settore pneumatica)","https://ecpneumatic.com.my/","+604 380 1277 / 78; +6012 528 2779 (WhatsApp)",None,None,"Email offuscata sul sito. Distributore dal 2006: SMC, Parker, Festo, Norgren, Camozzi, CKD; marchio proprio SWISH. Nessun conflitto diretto con Dupuy rilevato."),
+"Textran Industries (Penang) Sdn Bhd":("Confermato",None,None,None,None,"15 Jalan Industri Impian 1, Bukit Mertajam (filiale a Johor Bahru). Fondata 1998. Fasteners/ricambi: Meccanica solo in senso lato."),
+"Powermax Trading & Supplies":("Parziale",None,None,None,None,"Lorong Mutiara Inanam, Kota Kinabalu. Vende Milwaukee: possibile conflitto. Solo profilo marketplace, attivita attuale non provata."),
+"Sara Besi Hardware & Engineering Sdn Bhd":("Parziale",None,None,None,None,"248 Teck Guan Building, Jalan Padungan, Kuching. Nessuna fonte su marchi o attivita corrente."),
+"Sin Yew Seng Hardware & Machineries Sdn Bhd":("Parziale",None,None,None,None,"Dati 2024 indicano attivita recente. Marchi e settore non verificati."),
+"Pan Sarawak Co Sdn Bhd (Pansar)":("Confermato","https://pansar.com.my/",None,None,K,"23 Jalan Bengkel, Sibu. Dal 1961. DISTRIBUTORE ESCLUSIVO Lincoln Electric da 30+ anni (marchi Arcweld, Duraweld, Optimarc...): conflitto probabile nel Welding. Pagina contatti non aperta."),
+"Duromac (M) Sdn Bhd":("Parziale","https://www.duromac.com (dal risultato di ricerca, non aperto)","+60 3 8070 2826 (da risultato di ricerca, non verificato sul sito)",None,None,"No.9 Jalan BK 1/15, Bandar Kinrara, Puchong. Dal 1996. Rivende spazzatrici di marchi terzi; nulla su depolverazione/aspirazione."),
+"Techno Tools & Equipment":("Confermato","https://techno.my","+603-4270 2333","sales@techno.com.my",None,"36-1 Jalan Sulaiman 1, Taman Putra Sulaiman, Ampang. Distributore dal 2007, 50+ marchi. CONFLITTI: Karcher (cleaning), DeWalt, Bosch, Makita, Stanley. Generalista MRO."),
+"CT Hardware":("Confermato","https://cthardware.com","(603) 7873 0000","hello@cthardware.com",None,"No.1 Jalan SS2/3, Petaling Jaya. Dal 1977, punti vendita Klang Valley. CONFLITTI: Karcher, Bosch, DeWalt, Makita, Graco; marchi propri Kawa, Welflo, Accubit. Profilo anche DIY/retail."),
+"Dian Be Hardware Co Sdn Bhd":("Non verificabile",None,None,None,D,"Solo directory a bassa affidabilita; negozio ferramenta/DIY, 2 Jalan SS 2/63, PJ."),
+"HLH Welding Supply":("Parziale",None,None,None,None,"Klang. Saldatura, abrasivi, utensili, compressori, idropulitrici, gas. Dominio/contatti non verificati. Forse collegata a HLH Industrial Supply (M) Sdn Bhd (non provato)."),
+"Tools & Machinery Parts Supplies Sdn Bhd (TMP)":("Parziale","https://tomac.com.my (compare nei risultati; /about 404, non aperto)",None,None,None,"Lot 22 Jalan 51A/223, PJ 46100. Dal 1984. Utensili manuali, torque, sollevamento, pneumatici, MRO oil&gas. Marchi non verificati."),
+"Ampmech Sdn Bhd":("Confermato","https://www.ampmech.com","+603-7728 6250 / +6016-718 6250","info@ampmech.com",None,"46 Jalan SS22/21, Damansara Jaya. Stocking distributor prodotti Ex; ISO 9001; sedi anche a Kemaman, Bintulu, Miri, Penang. Marchi: Eaton Crouse-Hinds, CEAG, Thuba, Mennekes, Gewiss, Rittal, Fluke."),
+"See Kwong Electric (KL) Sdn Bhd":("Parziale",None,None,None,None,"14 & 16 Jalan TPP 5/2, Puchong. SSM 87458-A, dal 1982. Stockist ATEX/IECEx. Dominio/contatti non confermati."),
+"Medias Industrial Supplies Sdn Bhd":("Parziale",None,None,None,None,"Shah Alam. Fonte principale: scheda directory indonesiana (identita/indirizzo da riverificare). Ruolo distributore/produttore non chiaro."),
+"MECHKINARC (M) Sdn Bhd":("Parziale",None,None,None,K,"No.7 Jalan Dermawan 25/89, Shah Alam. Agente esclusivo marchio MORROW (taglio/saldatura): conflitto di marca nel Welding."),
+"Weld Systems Sdn Bhd":("Parziale",None,None,None,None,"45 Jalan PJU 1A/18, Taman Perindustrian Jaya, PJ. Vende, noleggia, ripara saldatrici. Sito/contatti non verificati."),
+"Elta Fans Malaysia Sdn Bhd":("Scartato",None,None,None,P,"SCARTATO dopo verifica: produttore (filiale gruppo Elta), non distributore."),
+}
 STATI = ["Johor","Kedah","Kelantan","Melaka","Negeri Sembilan","Pahang","Penang","Perak","Perlis","Sabah","Sarawak","Selangor","Terengganu","Kuala Lumpur","Labuan","Putrajaya",ND]
 rows = []
 for st,az,area,sito,tel,sets,val,note in R:
+    esito,email = "Non ancora verificata",None
+    if az in V:
+        esito,s2,t2,email,v2,n2 = V[az]
+        sito = s2 or sito; tel = t2 or tel; val = v2 or val; note = (note + " | VERIFICA: " + n2)
     for s in sets:
-        rows.append((st,s,az,area,sito,tel,val,note))
+        rows.append((st,s,az,area,sito,tel,val,note,esito,email))
 rows.sort(key=lambda r:(STATI.index(r[0]),SETTORI.index(r[1]),r[2].lower()))
 
 wb = Workbook()
@@ -116,12 +164,12 @@ for i in range(2, 11): ws.column_dimensions[get_column_letter(i)].width = 15
 ws.append([]); ws.append(["Terengganu, Kuala Lumpur, Labuan e Putrajaya: nessun candidato locale trovato (i risultati Klang Valley sono assegnati a Selangor)."])
 # --- Tutti
 wt = wb.create_sheet("Tutti i risultati")
-head = ["stato","settore","ragione_sociale","area","sito_web","telefono","email","valutazione","note","stato_verifica"]
+head = ["stato","settore","ragione_sociale","area","sito_web","telefono","email","valutazione","esito_verifica","note","stato_verifica"]
 wt.append(head)
 for c in wt[1]: c.fill = hf; c.font = hfont
 for r in rows:
-    wt.append([r[0],r[1],r[2],r[3],r[4],r[5],None,r[6],r[7],"DA VERIFICARE UMANAMENTE"])
-for col,w in zip("ABCDEFGHIJ",[26,16,42,38,40,16,18,30,70,26]): wt.column_dimensions[col].width = w
+    wt.append([r[0],r[1],r[2],r[3],r[4],r[5],r[9],r[6],r[8],r[7],"DA VERIFICARE UMANAMENTE"])
+for col,w in zip("ABCDEFGHIJK",[26,16,42,38,40,22,24,30,24,80,26]): wt.column_dimensions[col].width = w
 wt.freeze_panes = "C2"; wt.auto_filter.ref = wt.dimensions
 for row in wt.iter_rows(min_row=2):
     for c in row: c.alignment = Alignment(wrap_text=True, vertical="top")
@@ -132,8 +180,8 @@ for st in STATI:
     w = wb.create_sheet(st[:31] if st!=ND else "Sede n.d.")
     w.append(head[1:])
     for c in w[1]: c.fill = hf; c.font = hfont
-    for r in sub: w.append([r[1],r[2],r[3],r[4],r[5],None,r[6],r[7],"DA VERIFICARE UMANAMENTE"])
-    for col,wd in zip("ABCDEFGHI",[16,42,38,40,16,18,30,70,26]): w.column_dimensions[col].width = wd
+    for r in sub: w.append([r[1],r[2],r[3],r[4],r[5],r[9],r[6],r[8],r[7],"DA VERIFICARE UMANAMENTE"])
+    for col,wd in zip("ABCDEFGHIJ",[16,42,38,40,22,24,30,24,80,26]): w.column_dimensions[col].width = wd
     w.freeze_panes = "A2"
 OUT = "output/Dupuy_Malesia_Candidati_Raggruppati.xlsx"
 wb.save(OUT)
